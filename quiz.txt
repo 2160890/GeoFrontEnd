@@ -1,0 +1,172 @@
+<html>
+
+<head>
+<title>Greek Mythology Quiz</title>
+
+
+	</head>
+	
+	<body>
+	
+	Javascript Quiz<br>
+	
+	<form name="q">
+	
+	<ol> 
+		<li>What did Medusa have instead of hair?<br>
+			answer: <input type="text" name="answer1" value="">
+		</li>
+		
+			<li>Who was the Greek God of the Sea?<br>
+			answer: <input type="text" name="answer2" value="">
+		</li>
+		
+			<li>Who opened the box containing all the world's evils?<br>
+			answer: <input type="text" name="answer3" value="">
+		</li>
+		
+		<li>Which of the following is the Greek Goddess of agriculture and fertility?<br>
+		<input type="radio" name="choicesSet4"
+			onclick="q.ansewer4.value='a'">Aphrodite<br>
+		<input type="radio" name="choicesSet4"
+			onclick ="q.answer4.value='b'">Athena<br>
+		<input type="radio" name="choicesSet4"
+			onclick="q.answer4.value='c'">Demeter<br>
+		<input type="radio" name="choicesSet4"
+			onclick="q.answer4.value='d'">Hera<br>
+		<input type="hidden" name="answer4" value="">
+	</li>
+	
+	<li>Which of the following is the messenger of deities, and protector of orators, writers, traders, and travelers in Greek Mythology?<br>
+		<input type="radio" name="choicesSet5"
+			onclick="q.ansewer5.value='a'">Mercury<br>
+		<input type="radio" name="choicesSet5"
+			onclick ="q.answer5.value='b'">Hermes<br>
+		<input type="radio" name="choicesSet5"
+			onclick="q.answer5.value='c'">Apollo<br>
+		<input type="radio" name="choicesSet5"
+			onclick="q.answer5.value='d'">Dionysus<br>
+		<input type="hidden" name="answer5" value="">
+	</li>
+	
+	<li>Which of the following is the wife of Zeus, the protector of marriage, children, and the home?<br>
+		<input type="radio" name="choicesSet6"
+			onclick="q.ansewer6.value='a'">Aphrodite<br>
+		<input type="radio" name="choicesSet6"
+			onclick ="q.answer6.value='b'">Athena<br>
+		<input type="radio" name="choicesSet6"
+			onclick="q.answer6.value='c'">Artemis<br>
+		<input type="radio" name="choicesSet6"
+			onclick="q.answer6.value='d'">Hera<br>
+		<input type="hidden" name="answer6" value="">
+	</li>
+	
+	
+	<li>What creature lived at the center of the Labyrinth?<br>
+	<select name="answer7">
+		<option value=""></option>
+		<option value="alert()">The Minotaur</option>
+		<option value="confirm()">The Muse</option>
+	</select>
+	</li>
+	
+	
+	<li>Who tried to find the golden fleece?<br>
+	<select name="answer8">
+		<option value=""></option>
+		<option value="alert()">Jason</option>
+		<option value="confirm()">Heracles</option>
+	</select>
+	</li>
+	
+	
+	<li>Which of the following is the God of all Gods?<br>
+	<select name="answer9">
+		<option value=""></option>
+		<option value="alert()">Apollo</option>
+		<option value="confirm()">Zeus</option>
+	</select>
+	</li>
+	
+	<li> Which of the following is the God of the Underworld? <br>
+	<select name="answer10">
+		<option value=""></option>
+		<option value="alert()">Achilles</option>
+		<option value="confirm()">Hades</option>
+	</select>
+	</li>
+
+	
+</li>
+<ol>
+
+<input type="button" value="Submit" onclick="score();">
+
+<script type="text/javascript">
+function score()
+{
+	var s =0;//declare variable s; s is equal to zero
+	
+	//check the answer in item 1
+	if (q.answer1.value == "SNAKES"
+	{
+		s = s + 1		//add 1 to variable s
+	}
+	
+	//check the answer in item 2
+	if (q.answer2.value == "POSEIDON"
+	{
+		s = s + 1		//add 1 to variable s
+	}
+	
+	//check the answer in item 3
+	if (q.answer3.value == "PANDORA"
+	{
+		s = s + 1		//add 1 to variable s
+	}
+	
+	//check the answer in item 4
+	if (q.answer4.value == "c")
+	{
+			s = s + 1		//add 1 to variable s
+	}
+	
+	//check the answer in item 5
+	if (q.answer5.value == "b")
+	{
+			s = s + 1		//add 1 to variable s
+	}
+	
+	//check the answer in item 6
+	if (q.answer6.value == "d")
+	{
+			s = s + 1		//add 1 to variable s
+	}
+	
+	
+	//check the answer in item 7
+	if (q.answer7.value == "The Minotaur")
+	{
+			s = s + 1		//add 1 to variable s
+	}
+	//check the answer in item 8
+	if (q.answer8.value == "Jason")
+	{
+			s = s + 1		//add 1 to variable s
+	}
+	//check the answer in item 9
+	if (q.answer9.value == "Jason")
+	{
+			s = s + 1		//add 1 to variable s
+	}
+	//check the answer in item 10
+	if (q.answer10.value == "Jason")
+	{
+			s = s + 1		//add 1 to variable s
+	}
+	</script>
+
+</form>
+
+</body>
+</html>
