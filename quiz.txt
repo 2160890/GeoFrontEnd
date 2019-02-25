@@ -2,7 +2,6 @@
 
 <head>
 <title>Greek Mythology Quiz</title>
-marielle
 
 	</head>
 	
